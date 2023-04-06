@@ -1,0 +1,9 @@
+@import "addons.scss";
+@import "contador_wide.scss";
+
+/* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
+/* The actual styles should be defined in contador_wide.scss */
+.contador_wide {
+  @include addons;
+  @include contador_wide;
+}

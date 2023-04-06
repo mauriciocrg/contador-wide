@@ -1,0 +1,57 @@
+<!--This CustomLayout uses inline styles.-->
+<table align="center" cellspacing="10"
+style="width: 100%; height: 100%; color: #fff; padding: 20px;
+background: #31629E repeat-x">
+	<tr>
+		<td width="80%">
+			<h1 style="margin-top: 0;">Puesto: </h1> 
+		</td>
+		<td width="20%">
+		    <div location="puesto" ></div>
+		</td>
+	</tr>
+	<tr>		
+		<td width="80%">
+			<h1 style="margin-top: 0;">Número solicitado: </h1>
+		</td>
+		<td width="20%">
+		    <div location="number" ></div>
+		</td>
+	</tr>
+	
+	<tr>
+		<td colspan="2" align="right">
+			<div location="next"></div>
+		</td>
+	</tr>
+	
+	<tr >    
+		<td colspan="2" align="right">
+			<div location="atendido"></div>
+		</td>
+	</tr>
+	
+	<tr>    
+		<td colspan="2" align="right">
+			<div location="bell"></div>
+		</td>
+	</tr>
+	
+	<tr >
+	    
+		<td colspan="2" align="right">
+			<div location="setNumber"></div>
+		</td>
+	</tr>
+	<tr >
+	    
+		<td colspan="2" align="right">
+			<div location="setPublicidad"></div>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="padding: 7px; background-color: #4172AE">
+			<span style="font-family: FontAwesome; margin-right: 5px;">&#xf05a; <div location="message" ></div></span>
+		</td>
+	</tr>
+</table>
